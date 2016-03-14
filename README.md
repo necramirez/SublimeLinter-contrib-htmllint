@@ -1,7 +1,7 @@
 SublimeLinter-contrib-htmllint
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-htmllint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-htmllint)
+[![Build Status](https://travis-ci.org/necramirez/SublimeLinter-contrib-htmllint.svg?branch=master)](https://travis-ci.org/necramirez/SublimeLinter-contrib-htmllint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [htmllint](https://github.com/htmllint/htmllint). It will be used with files that have the “html” syntax.
 
