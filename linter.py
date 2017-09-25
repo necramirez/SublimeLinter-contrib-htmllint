@@ -10,14 +10,15 @@
 
 """This module exports the Htmllint plugin class."""
 
-from SublimeLinter.lint import Linter
+from SublimeLinter.lint import NodeLinter
 
 
-class Htmllint(Linter):
+class Htmllint(NodeLinter):
     """Provides an interface to htmllint."""
 
     syntax = 'html'
-    cmd = 'htmllint'
+    npm_name = 'htmllint-cli'
+    cmd = ('htmllint', '@')
     config_file = ('--rc', '.htmllintrc')
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
