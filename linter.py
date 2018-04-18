@@ -22,5 +22,5 @@ class Htmllint(NodeLinter):
     config_file = ('--rc', '.htmllintrc')
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
-    version_requirement = '>= 0.0.4'
+    version_requirement = '>= 0.0.7'
     regex = r'^.+: line (?P<line>\d+), col (?P<col>\d+), (?P<message>.+)'
