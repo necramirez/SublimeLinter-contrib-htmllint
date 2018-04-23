@@ -17,13 +17,17 @@ Before using this plugin, you must ensure that `htmllint` is installed on your s
    ```
    npm install -g htmllint-cli
    ```
+   Or install locally in your project folder (you must have a `package.json` file for the local version to be used):
+   ```
+   npm install --save-dev htmllint-cli
+   ```
 
 1. If you are using `nvm` and `zsh`, ensure that the line to load `nvm` is in `.zshenv` and not `.zshrc`.
 
 1. If you are using `zsh` and `oh-my-zsh`, do not load the `nvm` plugin for `oh-my-zsh`.
 
 
-**Note:** This plugin requires `htmllint` 0.0.4 or later.
+**Note:** This plugin requires `htmllint` 0.0.7 or later.
 
 ### Linter configuration
 In order for `htmllint` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
