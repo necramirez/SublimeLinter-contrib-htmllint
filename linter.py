@@ -16,7 +16,9 @@ from SublimeLinter.lint import NodeLinter
 class Htmllint(NodeLinter):
     """Provides an interface to htmllint."""
 
-    syntax = 'html'
+    defaults = {
+        'selector': 'text.html'
+    }
     npm_name = 'htmllint-cli'
     cmd = ('htmllint', '@')
     config_file = ('--rc', '.htmllintrc')
